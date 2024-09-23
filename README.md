@@ -59,11 +59,11 @@ Much of the firsts found in Adventure would become standard in many other popula
 
 ## Development & Design Notes
 
-**Images, Sounds, etc.**
+### Images, Sounds, etc.
 
 The images and sounds are my own. I created them from scratch. I recorded the sounds from the original game and cleaned them up. I used Paint, Krita, and Piskel.com to draw the various images, and Audacity to record, clean up, and edit the sounds. I am open to using free assets in the Retro skin for the characters and inventory items. But I have not found ones that I think fit the game well just yet. I will continue working on this and maybe draw my own if need be.   
 
-## Tiles, Grid, and Map
+### Tiles, Grid, and Map
 
 I created my own mapping system based on a map of the original game I found online and through trial and error to come up with a grid layout that worked to accurately recreate the original rooms. 
 
