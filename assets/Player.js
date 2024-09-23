@@ -243,8 +243,8 @@ class PlayerManager {
     Draw() {
         //if (!player.alive) return;
 
-        if (skin) {
-            ctx.drawImage(frames[frameCounter], player.x, player.y); //, player.height * 2, playerWidth * 2);
+        //if (skin) {
+        //    ctx.drawImage(frames[frameCounter], player.x, player.y); //, player.height * 2, playerWidth * 2);
             // The commented code allows you to run the spritesheets setup in the initialize() function.
             //var borderWidth = 8;
             //var spriteWidth = 61;
@@ -262,9 +262,9 @@ class PlayerManager {
             //    8, 22
             //);
 
-        } else {
+        //} else {
             ctx.fillRect(player.x, player.y, playerWidth, playerHeight);
-        }
+        //}
 
         //frameCounter++;
         //if (playerFrameCounter === 7) playerFrameCounter = 0;
