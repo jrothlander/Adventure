@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Adventure</title>
+    <style>
+        canvas {
+            border: 1px solid black;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .centered {
+            position: absolute;
+            top: 410px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+
+<body>
+    <canvas id="canvas" width="600" height="360" style="background-color: lightgray;"></canvas>
+    <div id="panel" class="centered">
+        <button id="startButton">START GAME</button>
+        Game Level
+        <select name="btnGame" id="btnGame">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <!--option value="3">3</option-->
+        </select>
+        <br>
+        Skin Style
+        <input type="radio" id="atari" name="skin" value="atari" checked>
+        <label for="atari">Classic Atari</label>
+        <input type="radio" id="retro" name="skin" value="retro">
+        <label for="retro">Retro Arcade</label>
+        <br>
+    </div>
+    <script src="./lib/StdLib.js"></script>
+    <script src="./lib/GameState.js"></script>
+    <script src="./lib/AudioManager.js"></script>
+    <script src="./lib/ImageManager.js"></script>
+    <script src="./lib/Map.js"></script>
+    <script src="./assets/Player.js"></script>
+    <script src="./assets/Dragon.js"></script>
+    <script src="./assets/Grid.js"></script>
+    <script src="./assets/Key.js"></script>
+    <script src="./assets/Chalice.js"></script>
+    <script src="./assets/Gate.js"></script>
+    <script src="./assets/Castle.js"></script>
+    <script src="./assets/Sword.js"></script>
+    <script src="./assets/Magnet.js"></script>
+    <script src="./assets/Bat.js"></script>
+    <script src="./assets/Bridge.js"></script>
+    <script src="./assets/Dot.js"></script>
+    <script src="./lib/SpriteFont.js"></script>
+    <script src="./lib/CollisionHandler.js"></script>
+
+    <script src="GameLoop.js"></script>
+</body>
+
+</html>
