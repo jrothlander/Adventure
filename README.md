@@ -1,5 +1,7 @@
 <img src="https://img.itch.zone/aW1nLzE3NzQ1MjI0LnBuZw==/original/pg%2BKUl.png" width="50%">
 
+The game is hosted at https://jrothlander.itch.io/atari-adventure-1980
+
 # Adventure
 Atari Adventure (1980) Clone
 
