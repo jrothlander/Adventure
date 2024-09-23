@@ -18,16 +18,18 @@ let player = {
     released: false
 };
 
-let walkleft2_Image;
-let playerFrameCounter = 0;
-let frames = [];
-let spritesheet;
+//let walkleft2_Image;
+//let playerFrameCounter = 0;
+//let frames = [];
+//let spritesheet;
 
 class PlayerManager {
 
     Initialize() {
+        // Testing some free characters but they don't work well with the style of the rooms. 
+        // I think to use something like this, the game would need to be modified to a 1980 style isometric style game.
         //spritesheet = imageManager.GetImage("knight_walking");
-        spritesheet = imageManager.GetImage("knight_running");
+        //spritesheet = imageManager.GetImage("knight_running");
     }
 
     Update() {
@@ -242,29 +244,30 @@ class PlayerManager {
         //if (!player.alive) return;
 
         if (skin) {
-            //ctx.drawImage(frames[frameCounter], player.x, player.y); //, player.height * 2, playerWidth * 2);
-            var borderWidth = 8;
-            var spriteWidth = 61;
-            var spriteHeight = 65;
+            ctx.drawImage(frames[frameCounter], player.x, player.y); //, player.height * 2, playerWidth * 2);
+            // The commented code allows you to run the spritesheets setup in the initialize() function.
+            //var borderWidth = 8;
+            //var spriteWidth = 61;
+            //var spriteHeight = 65;
 
-            if (frameCounter % 5 === 0) {
-                playerFrameCounter++;
-            }
-            this.DrawPlayerFromSpriteSheet( //playerFrameCounter, 0, borderWidth, spriteWidth, spriteHeight, player.x, player.y);
-                playerFrameCounter, 0,
-                borderWidth,
-                spriteWidth, spriteHeight,
-                spritesheet,
-                player.x, player.y,
-                8, 22
-            );
+            //if (frameCounter % 5 === 0) {
+            //    playerFrameCounter++;
+            //}
+            //this.DrawPlayerFromSpriteSheet( //playerFrameCounter, 0, borderWidth, spriteWidth, spriteHeight, player.x, player.y);
+            //    playerFrameCounter, 0,
+            //    borderWidth,
+            //    spriteWidth, spriteHeight,
+            //    spritesheet,
+            //    player.x, player.y,
+            //    8, 22
+            //);
 
         } else {
             ctx.fillRect(player.x, player.y, playerWidth, playerHeight);
         }
 
-        frameCounter++;
-        if (playerFrameCounter === 7) playerFrameCounter = 0;
+        //frameCounter++;
+        //if (playerFrameCounter === 7) playerFrameCounter = 0;
     }
 
     DrawPlayerFromSpriteSheet(
