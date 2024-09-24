@@ -16,4 +16,4 @@ Adventure was the first graphical adventure game ever released. Robinett was the
 ## Assets Supported
 The player, dragons, keys, sword, gates, maze, bridge, magnet, microdot, hyperplane navigation, chalice, and winning the game are all working pretty much as the original. I do have it setup so that you have to drop the chalice to win and I do not lock the game down on winning, as I want you to be able to explore the maze. 
 
-**For a more detailed description of what is supported, not support, and open issues, please vist the Wiki page.**
+**For a more detailed description of what is supported, not support, open issues, and my approach to the design and code, please vist the Wiki page.**
