@@ -7,6 +7,8 @@ Atari Adventure (1980) Clone
 
 This is a clone of Warren Robinett's 1980 game Adventure for the Atari 2600 and written in HTML and JavaScript, and  my submission to Andre LaMothe's Udemy course,  Fast and Furious Game Development with JavaScript and AI.
 
+Adventure was used by OpenAI to develop their Deep Q-Leanring (DQN) model, which eventually was trained to play 50+ Atari games, including Adventure. 
+
 ## Controls
 Use your keyboard cursor arrows to move the player and the spacebar to drop items. 
 
